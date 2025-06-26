@@ -1,0 +1,134 @@
+:root {
+  --true-width: 85vw;
+  --true-height: calc(var(--true-width) * 0.5625);
+  --diff-width: calc(100vw - var(--true-width));
+  --demi-diff-width: calc(var(--diff-width) / 2);
+  --diff-height: calc(100vh - var(--true-height));
+  --demi-diff-height: calc(var(--diff-height) / 2);
+  --color-darkgrey: #3d3f3e;
+  --color-pink: #ff40fe;
+  --fs-title: 1.75vw;
+  --fs-subtitle: 0.59vw;
+  --fs-link: 0.8vw;
+}
+@font-face {
+  font-family: "Sequel";
+  src: url("public/fonts/sequel100wide95.ttf");
+}
+@font-face {
+  font-family: "SFIntermosaic";
+  src: url("public/fonts/SFIntermosaicB.ttf");
+}
+@font-face {
+  font-family: "SFProDisplayBold";
+  src: url("public/fonts/SFProDisplayBold.ttf");
+}
+@font-face {
+  font-family: "Ultra911";
+  src: url("public/fonts/ultra911expand.ttf");
+}
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background {
+  width: var(--true-width);
+  height: var(--true-height);
+  background: url("public/background/pc/pc_graphism.svg"),
+    url("public/background/pc/pc_background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: var(--true-width) var(--true-height);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+h3 {
+  text-align: center;
+}
+h4 {
+  font-weight: normal;
+  text-align: center;
+}
+.subtitle {
+  margin-top: -8px;
+}
+.flex {
+  display: flex;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position: absolute;
+}
+.sequel {
+  font-family: "Sequel";
+}
+.sfintermosaic {
+  font-family: "SFIntermosaic";
+}
+.sfprodisplay {
+  font-family: "SFProDisplayBold";
+}
+.ultra911 {
+  font-family: "Ultra911";
+}
+.color-darkgrey {
+  color: var(--color-darkgrey);
+}
+.color-pink {
+  color: var(--color-pink);
+}
+.testblue {
+  border: 1px solid blue;
+}
+.testred {
+  border: 1px solid red;
+}
+.testgreen {
+  border: 1px solid green;
+}
+.fs-h3 {
+  font-size: var(--fs-title);
+}
+.fs-h4 {
+  font-size: var(--fs-subtitle);
+}
+.fs-link {
+  font-size: var(--fs-link);
+}
+#links {
+  width: 51.5%;
+  height: 27.35%;
+  top: 19.5%;
+  left: 14.75%;
+  padding: 0 0.5%;
+}
+.icon {
+  width: 1.25vw;
+  height: auto;
+}
