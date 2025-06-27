@@ -8,7 +8,7 @@
   --color-darkgrey: #3d3f3e;
   --color-pink: #ff40fe;
   --fs-title: 1.75vw;
-  --fs-subtitle: 0.59vw;
+  --fs-subtitle: 0.5vw;
   --fs-link: 0.8vw;
 }
 @font-face {
@@ -79,6 +79,15 @@ h4 {
 }
 .subtitle {
   width: 100%;
+}
+.subtitle--shop {
+  padding: 0 12%;
+}
+.subtitle--watch {
+  padding: 0 9.25%;
+}
+.subtitle--see {
+  padding: 0 12.5%;
 }
 .flex {
   display: flex;
