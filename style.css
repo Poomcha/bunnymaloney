@@ -78,7 +78,7 @@ h4 {
   text-align: center;
 }
 .subtitle {
-  margin-top: -8px;
+  width: 100%;
 }
 .flex {
   display: flex;
