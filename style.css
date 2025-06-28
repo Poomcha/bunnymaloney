@@ -33,7 +33,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 body {
   width: 100vw;
@@ -89,7 +88,8 @@ h4 {
 .subtitle--see {
   padding: 0 12.5%;
 }
-.subtitle--read {}
+.subtitle--read {
+}
 .flex {
   display: flex;
 }
@@ -162,4 +162,13 @@ h4 {
 .icon {
   width: 1.25vw;
   height: auto;
+}
+.animimg {
+  width: 10vw;
+  height: auto;
+  bottom: 5.5%;
+  right: -0.5%;
+}
+.hidden {
+  display: none;
 }
