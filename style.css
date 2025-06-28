@@ -89,6 +89,7 @@ h4 {
 .subtitle--see {
   padding: 0 12.5%;
 }
+.subtitle--read {}
 .flex {
   display: flex;
 }
@@ -151,6 +152,12 @@ h4 {
   top: 19.5%;
   left: 14.75%;
   padding: 0 0.5%;
+}
+#socials {
+  width: 13.5%;
+  height: 35%;
+  top: 11.85%;
+  left: 69.5%;
 }
 .icon {
   width: 1.25vw;
