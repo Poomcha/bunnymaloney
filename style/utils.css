@@ -1,0 +1,43 @@
+.flex {
+  display: flex;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position: absolute;
+}
+
+.color-darkgrey {
+  color: var(--color-darkgrey);
+}
+.color-pink {
+  color: var(--color-pink);
+}
+.color-white {
+  color: white;
+}
+.fs-h3 {
+  font-size: var(--fs-title);
+}
+.fs-h4 {
+  font-size: var(--fs-subtitle);
+}
+.fs-link {
+  font-size: var(--fs-link);
+}
+.icon {
+  width: 1.25vw;
+  height: auto;
+}
+.hidden {
+  display: none;
+}

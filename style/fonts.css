@@ -1,0 +1,29 @@
+/* Fonts */
+@font-face {
+  font-family: "Sequel";
+  src: url("../public/fonts/sequel100wide95.ttf");
+}
+@font-face {
+  font-family: "SFIntermosaic";
+  src: url("../public/fonts/SFIntermosaicB.ttf");
+}
+@font-face {
+  font-family: "SFProDisplayBold";
+  src: url("../public/fonts/SFProDisplayBold.ttf");
+}
+@font-face {
+  font-family: "Ultra911";
+  src: url("../public/fonts/ultra911expand.ttf");
+}
+.sequel {
+  font-family: "Sequel";
+}
+.sfintermosaic {
+  font-family: "SFIntermosaic";
+}
+.sfprodisplay {
+  font-family: "SFProDisplayBold";
+}
+.ultra911 {
+  font-family: "Ultra911";
+}

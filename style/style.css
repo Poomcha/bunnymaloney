@@ -1,0 +1,111 @@
+.frame {
+  width: var(--true-width);
+  height: var(--true-height);
+}
+.background {
+  width: 100%;
+  height: 100%;
+  background: url("../public/background/pc/pc_graphism.svg"),
+    url("../public/background/pc/pc_background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: var(--true-width) var(--true-height);
+}
+.hero {
+  top: 39.5%;
+  right: 33.6%;
+}
+.hero img {
+  width: 54vw;
+  height: auto;
+}
+.reveal {
+  animation-duration: 2s;
+  animation-name: reveal;
+}
+.subtitle {
+  width: 100%;
+}
+.subtitle--shop {
+  padding: 0 12%;
+}
+.subtitle--watch {
+  padding: 0 9.25%;
+}
+.subtitle--see {
+  padding: 0 12.5%;
+}
+.subtitle--read {
+}
+
+.testblue {
+  border: 1px solid blue;
+}
+.testred {
+  border: 1px solid red;
+}
+.testgreen {
+  border: 1px solid green;
+}
+#links {
+  width: 51.5%;
+  height: 27.35%;
+  top: 19.5%;
+  left: 14.75%;
+  padding: 0 0.5%;
+}
+#socials {
+  width: 13.5%;
+  height: 35%;
+  top: 11.85%;
+  left: 69.5%;
+}
+.anim-ctn {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.animimg {
+  width: 10vw;
+  height: auto;
+  bottom: 5.5%;
+  right: -0.5%;
+}
+@media screen and (max-width: 1280px) {
+  .frame {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .background {
+    width: 100dvw;
+    height: 100dvh;
+    background: url("../public/background/smartphone/smartphone_graphisme.svg"),
+      url("../public/background/smartphone/smartphone_background.svg");
+    background-position: center;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: 100dvw 100dvh;
+  }
+  .hero {
+    top: auto;
+    bottom: 73.25%;
+    right: calc(50dvw - 94dvw / 2);
+  }
+  .hero > img {
+    width: 94dvw;
+  }
+  section {
+    display: none;
+  }
+  .animimg {
+    width: 30dvw;
+    bottom: 0;
+  }
+  div svg {
+    display: none;
+  }
+}

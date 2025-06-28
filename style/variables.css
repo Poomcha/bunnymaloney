@@ -1,0 +1,15 @@
+/* Variables */
+:root {
+  --true-width: 85dvw;
+  --true-smartphone-width: ;
+  --true-height: calc(var(--true-width) * 0.5625);
+  --diff-width: calc(100dvw - var(--true-width));
+  --demi-diff-width: calc(var(--diff-width) / 2);
+  --diff-height: calc(100dvh - var(--true-height));
+  --demi-diff-height: calc(var(--diff-height) / 2);
+  --color-darkgrey: #3d3f3e;
+  --color-pink: #ff40fe;
+  --fs-title: 1.75vw;
+  --fs-subtitle: 0.5vw;
+  --fs-link: 0.8vw;
+}
