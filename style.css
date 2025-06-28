@@ -41,14 +41,22 @@ body {
   justify-content: center;
   align-items: center;
 }
-.background {
+.frame {
   width: var(--true-width);
   height: var(--true-height);
+}
+.background {
+  width: 100%;
+  height: 100%;
   background: url("public/background/pc/pc_graphism.svg"),
     url("public/background/pc/pc_background.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: var(--true-width) var(--true-height);
+}
+.reveal {
+  animation-duration: 2s;
+  animation-name: reveal;
 }
 a {
   color: inherit;
@@ -171,4 +179,50 @@ h4 {
 }
 .hidden {
   display: none;
+}
+@keyframes reveal {
+  from {
+    opacity: 0%;
+  }
+  75% {
+    opacity: 0%;
+  }
+  80% {
+    opacity: 100%;
+  }
+  82% {
+    opacity: 0%;
+  }
+  84% {
+    opacity: 100%;
+  }
+  86% {
+    opacity: 0%;
+  }
+  92% {
+    opacity: 100%;
+  }
+  94% {
+    opacity: 0%;
+  }
+  96% {
+    opacity: 100%;
+  }
+  98% {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+@keyframes hide {
+  from {
+    opacity: 100%;
+  }
+  75% {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0%;
+  }
 }
