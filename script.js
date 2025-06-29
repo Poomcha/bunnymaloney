@@ -14,4 +14,24 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 100);
   };
   animate(animationImages);
+
+  const icons = document.querySelectorAll(".icon");
+  icons.forEach((icon) => {
+    if (window.innerWidth <= 1280) {
+      const src = icon.getAttribute("src");
+      const newSrc = [
+        src.split("/")[0],
+        src.split("/")[1],
+        src.split("/")[2].split("_")[0] + "_smart.svg",
+      ].join("/");
+      icon.setAttribute("src", newSrc);
+    }
+  });
+
+  const subtitles = document.querySelectorAll(".subtitle");
+  subtitles.forEach((subtitle) => {
+    if (window.innerWidth <= 1280) {
+      subtitle.setAttribute("fill", "#ffffff");
+    }
+  });
 });

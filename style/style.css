@@ -25,6 +25,7 @@
 }
 .subtitle {
   width: 100%;
+  top: 10.5%;
 }
 .subtitle--shop {
   padding: 0 12%;
@@ -37,7 +38,13 @@
 }
 .subtitle--read {
 }
-
+.subtitle-text {
+  font-family: "sfintermosaic";
+  font-size: 0.5575vw;
+}
+.subtitle-text--shop {
+  word-spacing: 0.185vw;
+}
 .testblue {
   border: 1px solid blue;
 }
@@ -53,6 +60,43 @@
   top: 19.5%;
   left: 14.75%;
   padding: 0 0.5%;
+}
+.ul--links {
+  width: 100%;
+  height: 100%;
+}
+.li--shop {
+  width: 34.15%;
+  height: 100%;
+}
+.ul--shop {
+  height: 100%;
+  padding-left: 10%;
+  top: 11.25%;
+  gap: 0.5vw;
+}
+.li--watch {
+  width: 39.5%;
+  height: 100%;
+}
+.ul--watch {
+  height: 100%;
+  padding-left: 10%;
+  top: 11.25%;
+  gap: 0.5vw;
+}
+.li--see {
+  width: 26.35%;
+}
+.ul--see {
+  height: 100%;
+  padding-left: 10%;
+  top: 11.25%;
+  gap: 0.5vw;
+}
+.li--goatreon {
+  top: 50.5%;
+  left: 15%;
 }
 #socials {
   width: 13.5%;
@@ -98,8 +142,52 @@
   .hero > img {
     width: 94dvw;
   }
-  section {
-    display: none;
+  #links {
+    width: 28.75%;
+    height: 37.5%;
+    top: 45.75%;
+    left: 10.25%;
+  }
+  .ul--links {
+    flex-direction: column;
+  }
+  .li--shop {
+    width: 100%;
+    height: 23.25%;
+  }
+  .subtitle {
+  }
+  .subtitle {
+    width: 100%;
+    top: 1.3vh;
+  }
+  .subtitle--shop {
+    padding: 0 0;
+  }
+  .subtitle--watch {
+    padding: 0 9.25%;
+  }
+  .subtitle--see {
+    padding: 0 12.5%;
+  }
+  .subtitle--read {
+  }
+  .subtitle-text {
+    font-family: "sfintermosaic";
+    font-size: 0.625vh;
+  }
+  .subtitle-text--shop {
+    word-spacing: 0.45vh;
+  }
+  .li--watch {
+    width: 100%;
+    height: 41%;
+  }
+  .ul--watch {
+    height: 100%;
+    padding-left: 0;
+    top: 4.5%;
+    gap: 0.4vh;
   }
   .animimg {
     width: 30dvw;
@@ -107,5 +195,27 @@
   }
   div svg {
     display: none;
+  }
+  .ul--shop {
+    padding-left: 0;
+    width: 100%;
+    top: 7.5%;
+    gap: 0.5vh;
+  }
+  .span--link {
+    color: white;
+  }
+  .li--see {
+    width: 100%;
+  }
+  .ul--see {
+    height: 100%;
+    padding-left: 0;
+    top: 11.25%;
+    gap: 0.5vh;
+  }
+  .li--goatreon {
+    top: 117.5%;
+    left:10%;
   }
 }

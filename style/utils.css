@@ -15,7 +15,9 @@
 .p-absolute {
   position: absolute;
 }
-
+.z-4 {
+  z-index: 4;
+}
 .color-darkgrey {
   color: var(--color-darkgrey);
 }
@@ -37,7 +39,19 @@
 .icon {
   width: 1.25vw;
   height: auto;
+  color: var(--color-pink);
 }
 .hidden {
   display: none;
+}
+@media screen and (max-width: 1280px) {
+  .fs-h3 {
+    font-size: var(--fs-title--smart);
+  }
+  .fs-link {
+    font-size: xx-small;
+  }
+  .icon {
+    width: 1.75vh;
+  }
 }
