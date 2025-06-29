@@ -37,6 +37,7 @@
   padding: 0 12.5%;
 }
 .subtitle--read {
+  top: 8.25%;
 }
 .subtitle-text {
   font-family: "sfintermosaic";
@@ -73,7 +74,7 @@
   height: 100%;
   padding-left: 10%;
   top: 11.25%;
-  gap: 0.5vw;
+  gap: 2.5%;
 }
 .li--watch {
   width: 39.5%;
@@ -83,7 +84,7 @@
   height: 100%;
   padding-left: 10%;
   top: 11.25%;
-  gap: 0.5vw;
+  gap: 2.5%;
 }
 .li--see {
   width: 26.35%;
@@ -92,11 +93,11 @@
   height: 100%;
   padding-left: 10%;
   top: 11.25%;
-  gap: 0.5vw;
+  gap: 2.5%;
 }
 .li--goatreon {
-  top: 50.5%;
-  left: 15%;
+  top: 48.5%;
+  left: 17.5%;
 }
 #socials {
   width: 13.5%;
