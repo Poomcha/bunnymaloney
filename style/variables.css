@@ -2,7 +2,7 @@
 :root {
   --true-width: 85dvw;
   --true-smartphone-height: 100dvh;
-  --true-smartphone-width: calc(var(--true-smartphone-height) * 0.45)
+  --true-smartphone-width: calc(var(--true-smartphone-height) * 0.45);
   --true-height: calc(var(--true-width) * 0.5625);
   --diff-width: calc(100dvw - var(--true-width));
   --demi-diff-width: calc(var(--diff-width) / 2);
