@@ -27,6 +27,9 @@ h3 {
   text-align: center;
   color: var(--color-darkgrey);
 }
+.h3--pink {
+  color: var(--color-pink);
+}
 h4 {
   font-weight: normal;
   text-align: center;
