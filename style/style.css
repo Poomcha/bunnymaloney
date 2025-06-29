@@ -130,6 +130,11 @@
   bottom: 5.5%;
   right: -0.5%;
 }
+.legals {
+  bottom: 2.5%;
+  right: 35.5%;
+  gap: 15px;
+}
 @media screen and (max-width: 1280px) {
   .frame {
     width: var(--true-smartphone-width);
@@ -255,5 +260,11 @@
   .x-ctn {
     width: 100%;
     border-bottom: 1px solid var(--color-darkgrey);
+  }
+  .legals {
+    bottom: 38%;
+    right: 22.5%;
+    flex-direction: column;
+    gap: 0;
   }
 }
