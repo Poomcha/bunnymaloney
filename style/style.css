@@ -145,15 +145,15 @@
     background-position: center;
     background-origin: border-box;
     background-repeat: no-repeat;
-    background-size: 100dvw 100dvh;
+    background-size: var(--true-smartphone-width) var(--true-smartphone-height);
   }
   .hero {
     top: auto;
     bottom: 73.25%;
-    right: calc(50dvw - 94dvw / 2);
+    right: calc(50% - calc(var(--true-smartphone-width) - 5.5dvw) / 2);
   }
   .hero > img {
-    width: 94dvw;
+    width: calc(var(--true-smartphone-width) - 5.5dvw);
   }
   #links {
     width: 28.75%;
